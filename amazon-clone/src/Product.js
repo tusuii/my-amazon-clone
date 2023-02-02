@@ -13,11 +13,11 @@ function Product() {
 
         <div className="product_rateing">
           <p>⭐</p>
-          <p>⭐</p>
-          <p>⭐</p>
         </div>
       </div>
-      <img src="" alt=""/>
+      <img src="https://m.media-amazon.com/images/I/81vvgZqCskL.jpg" alt=""/>
+
+      <button> Add to basket </button>
     </div>
   );
 }
