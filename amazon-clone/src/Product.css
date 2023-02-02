@@ -12,10 +12,14 @@
     z-index: 1;
 }
 
+.product_rateing{
+    display: flex;
+}
+
 .product_info{
     
     height: 200px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 
 }
 

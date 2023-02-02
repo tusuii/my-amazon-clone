@@ -11,12 +11,30 @@ function Home() {
           alt=""
         ></img>
         <div className="home_row">
-          <Product />
-          <Product />
+          <Product
+            id="123"
+            title="The lean startup"
+            price={29.99}
+            image={"https://m.media-amazon.com/images/I/81vvgZqCskL.jpg"}
+            rating={3}
+          />
+          <Product
+            id="7584"
+            title="Life's Amazing Secrets: How to find Bala."
+            price={30.99}
+            image={"https://m.media-amazon.com/images/I/81N7FmJhbhL._AC_UL320_.jpg"}
+            rating={5}
+          />
         </div>
 
         <div className="home_row">
-          <Product />
+        <Product
+        id="4658"
+        title="The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life"
+        price={15.99}
+        image={"https://m.media-amazon.com/images/I/71t4GuxLCuL._AC_UL320_.jpg"}
+        rating={5}
+      />
           <Product />
           <Product />
         </div>
